@@ -1,5 +1,5 @@
 {
-  "name": "@spryker/oryx-for-zed",
+  "name": "@fond-of/oryx-for-zed",
   "version": "2.11.3",
   "description": "Spryker ZED frontend automation tool (oryx based)",
   "author": {
@@ -8,7 +8,7 @@
     "url": "http://spryker.com"
   },
   "repository": {
-    "url": "git@github.com:spryker/oryx-for-zed.git",
+    "url": "git@github.com:fond-of/oryx-for-zed.git",
     "type": "git"
   },
   "license": "MIT",
@@ -18,26 +18,26 @@
     "npm": ">=6.9.0"
   },
   "dependencies": {
-    "@babel/core": "~7.12.3",
-    "@babel/preset-env": "~7.12.1",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "@spryker/oryx": "^1.4.0",
-    "autoprefixer": "~8.3.0",
-    "babel-loader": "~8.1.0",
-    "core-js": "~2.5.5",
-    "css-loader": "~2.1.1",
-    "es6-promise": "~4.0.5",
-    "file-loader": "~1.1.11",
-    "fs-extra": "~10.0.0",
-    "imports-loader": "~0.8.0",
-    "mini-css-extract-plugin": "^2.4.5",
+    "autoprefixer": "^10.0.0",
+    "babel-loader": "^8.0.0",
+    "core-js": "^3.0.0",
+    "css-loader": "^6.0.0",
+    "es6-promise": "^4.0.0",
+    "file-loader": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "imports-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^2.0.0",
     "node-sass": "^7.0.0",
-    "optimize-css-assets-webpack-plugin": "~5.0.1",
-    "postcss-loader": "~2.1.4",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "postcss-loader": "^6.0.0",
     "resolve-url-loader": "^4.0.0",
-    "sass-loader": "~7.0.1",
-    "style-loader": "~0.21.0",
-    "terser-webpack-plugin": "~4.2.2",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^3.0.0",
+    "terser-webpack-plugin": "^5.0.0",
     "webpack": "^5.0.0",
-    "yargs": "~13.3.0"
+    "yargs": "^17.0.0"
   }
 }
